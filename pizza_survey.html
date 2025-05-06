@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"/>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Pizza Survey</title/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <div class="overlay">
+      <h1 id="title">The Ultimate Pizza Survey</h1>
+      <p id="description">We’re on a mission to discover what makes the perfect pizza. Help us out and let us know your pizza preferences!</p>
+      <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Name <input id="name" name="name" type="text" placeholder="Enter your name" class="input-width" required/></label><br>
+
+            <label id="email-label"for="email">Email <input id="email" name="email" type="email" placeholder="Enter your email" class="input-width" required/></label><br>
+
+            <label id="number-label"for="number">Age (optional) <input id="number" name="age" type="number" min="11" max="120" placeholder="Age" class="input-width" /></label><br>
+          
+
+          <label for="dropdown">How often do you eat pizza? <br>
+            <select id="dropdown">
+              <option value="">(select one)</option>
+                <option value="1">Once a week</option>
+                <option value="2">A couple of times a month</option>
+                <option value="3">Occasionally</option>
+                <option value="4">Pizza? What's that?</option>
+            </select>
+          </label><br><br>
+
+          <label>What's your favourite pizza crust?<br>
+            <label for="thin-crust"><input id="thin-crust" type="radio" name="pizza-crust" value="thin-crust"checked />Thin crust</label><br>
+
+            <label for="thick-crust"><input id="thick-crust" type="radio" name="pizza-crust" value="thick-crust"/>Thick crust</label><br>
+
+            <label for="stuffed-crust"><input id="stuffed-crust" type="radio" name="pizza-crust" value="stuffed-crust"/>Stuffed crust</label><br>
+
+            <label for="gluten-free-crust"><input id="gluten-free-crust" type="radio" name="pizza-crust" value="gluten-free-crust"/>Gluten-free</label><br>
+
+            <label for="no-preference"><input id="no-preference" type="radio" name="pizza-crust" value="no-preference"/>No preference</label>
+          </label><br><br>
+
+          <label>What are your go-to pizza toppings? <br>
+            <label for="pepperoni">
+          <input id="pepperoni" type="checkbox" required name="pizza-toppings" value="pepperoni" />Pepperoni
+            </label><br>
+
+            <label for="mushrooms">
+          <input id="mushrooms" type="checkbox" required name="pizza-toppings" value="mushrooms" />Mushrooms
+            </label><br>
+
+            <label for="sausage">
+          <input id="sausage" type="checkbox" required name="pizza-toppings" value="sausage" />Sausage
+            </label><br>
+
+            <label for="veggies">
+          <input id="veggies" type="checkbox" required name="pizza-toppings" value="veggies" />Veggies (peppers, onions, etc.)
+            </label><br>
+
+            <label for="cheese-only">
+          <input id="cheese-only" type="checkbox" required name="pizza-toppings" value="cheese-only" />Cheese only
+            </label><br>
+
+            <label for="hawaiian">
+          <input id="hawaiian" type="checkbox" required name="pizza-toppings" value="hawaiian"/>Hawaiian (yes, pineapple!)
+            </label><br>
+
+            <label for="other">
+          <input id="other" type="checkbox" required name="pizza-toppings" value="other"/>Other<input type="text" name="otherTopping" placeholder="Enter your topping" style="margin-left: 10px;">
+            </label><br><br>
+
+          <label for="dropdown">What's your favourite pizza sauce?<br>
+            <select id="dropdown">
+              <option value="">(select one)</option>
+                <option value="classic-tomato">Classic Tomato</option>
+                <option value="white-sauce">White Sauce</option>
+                <option value="bbq-sauce">BBQ Sauce</option>
+                <option value="pesto">Pesto</option>
+                <option value="none">No sauce (weird, right?)</option>
+            </select>
+          </label><br>
+          <label for="comments">Any pizza-related comments or ideas for an even better pie?<br>
+            <textarea id="comments" name="comments" rows="3" placeholder="Tell us about your dream pizza, or share a pizza hack you swear by!" class="input-width" ></textarea><br>
+            <input type="submit" value="Submit" id="submit"/>
+          </label>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
