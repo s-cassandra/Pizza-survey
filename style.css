@@ -1,0 +1,48 @@
+body{
+  background: url('https://media-hosting.imagekit.io/377cf8135ade4ac1/pizza-pizza-filled-with-tomatoes-salami-olives.jpg?Expires=1840314733&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=LsWqH6bjcS9s1OBhY-INccBzzfATDWdJqJXJD75Ihym9g4U0oZL4OUIf7fXo-3no4zel-4SEsgHfA0Gc3IEVAKvu~LvEqVTfl75a-zUcXqnlIVCT7fhTsh2JXlfKDgx1Tn5FCAOyJKm8SiANNwN64-LCXR5PxDid3KOIpmBT2j6reCPdlbmYiOYzNnK0vJasw-vFViaIRzMXnc~jIRrpReXD3eV3~J7969m4aO4JmQYOqrzQobCIOpeGX-qEFg5moDWqnPUYJQT7DOXUGVrVv~9wcxcrRtFnI8Jx51V8Fat8USw0LCNc73TFx4GNSrzGX13n2PREYPZ3q0M3ozhKfg__') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay {
+  background-color:rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 15px; 
+  box-shadow: 0 0 10px gray;       
+}
+
+h1{
+  color: #d62828;
+}
+
+label {
+  color:#006400
+}
+
+.input-width {
+  width: 95.5%;
+}
+input, select, textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background-color: #FFFAE1;
+  border: 2px solid #d62828;
+}
+
+#submit {
+  background-color: #f77f00;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 25px
+}
+
+#submit:hover{
+  background-color: #fcbf49;
+}
